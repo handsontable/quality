@@ -9,7 +9,7 @@ Testing templates and checklist can be reviewed and will be available to other m
 
 ##### Content
 
-A collection of all testing-related files: `checklist`, `templates`, `configuration guide`,etc.
+A collection of all testing-related files: `checklist`, `templates`, `configuration guide`, etc.
 
 
 #### Good practices
