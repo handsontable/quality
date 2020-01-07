@@ -9,7 +9,7 @@
     - [Configuration of documentation locally ](#configuration-of-documentation-locally)
 
 ## Content 
-Instructions for configuring the test environment and others useful guidances.
+Instructions for configuring the test environment and other useful guidance.
 
 ## Configuration guides - environments 
 Instructions for configuring the test environment 
