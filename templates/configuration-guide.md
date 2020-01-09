@@ -14,7 +14,7 @@
 Instructions for configuring the test environment and other useful guidance.
 
 ## Configuration guides - environments 
-Instructions for configuring the test environment 
+Instructions for configuring the test environment for Handsontable, Handsontable-wrappers and other projects.
 
 
 ### Handsontable version from PR for installation in the project
@@ -57,7 +57,7 @@ WIP
 WIP
 
 ## Configuration guides - other instructions
-Not exactly testing environments
+Not exactly testing environments, but other helpful guides. 
 
 ### Configuration of documentation locally 
 WIP
