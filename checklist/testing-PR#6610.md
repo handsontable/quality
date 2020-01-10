@@ -19,7 +19,7 @@
      - [ ] non-integer numbers, currency, periods, commas, number format, formulas
      - [ ] repeat above after changing the keyboard language to American
      - [ ] and after changing the keyboard language to German
-     - [ ] IME after changing language to Chinese or Japanese, 
+     - [ ] IME after changing language to Chinese or Japanese
 - [ ] Click through key functions on a minified version (crud, move, formulas)
 - [ ] Click through key functions (crud, move, fixing, formulas) on wrappers
 
@@ -31,6 +31,8 @@
     - [ ] Removal of multiple licenses, e.g. 100
     - [ ] Back-up/restore license
     - [ ] Invalid license added
+        - [ ] improper licence key
+        - [ ] expired licence key
         - [ ] Incorrect email address format - space, strange characters
         - [ ] Incorrect format of name, surname, organization name, @, strange characters, numbers, e.g. 13th month
   
@@ -53,16 +55,19 @@
 15. [#3402 Alter value before validation ](https://github.com/handsontable/handsontable/issues/3402)
 16. [#2966 Cells function gets the property function in the col argument during validation ](https://github.com/handsontable/handsontable/issues/2966)
 17. [#5848 Numeric cell type fails to validate -.n ](https://github.com/handsontable/handsontable/issues/5848)
+18. [#6465 8.0.0 release](https://github.com/handsontable/handsontable/issues/6465)
 
 ### Documentation
 1. [Handsontable's numericFormat](https://handsontable.com/docs/7.3.0/Options.html#numericFormat)
 2. [Handsontable's numeric cell type](https://handsontable.com/docs/7.3.0/demo-numeric.html)
-3. [numbro's format](http://numbrojs.com/format.html)
-4. [numbo supported languages](http://numbrojs.com/languages.html#supported-languages)
-5. [numbro issue board](https://github.com/BenjaminVanRyseghem/numbro/issues)
-6. [Pikaday issue board](https://github.com/Pikaday/Pikaday/issues)
-7. [Moment.js issue board](https://github.com/moment/moment/issues)
-8. [Moment.js documentation](https://momentjs.com/docs/)
-9. [Terser issue board](https://github.com/terser/terser/issues)
+3. [Handsontable Licensing information](https://handsontable.com/docs/7.3.0/tutorial-licensing.html)
+4. [Handsontable licence key information](https://handsontable.com/docs/7.3.0/tutorial-license-key.html)
+5. [numbro's format](http://numbrojs.com/format.html)
+6. [numbo supported languages](http://numbrojs.com/languages.html#supported-languages)
+7. [numbro issue board](https://github.com/BenjaminVanRyseghem/numbro/issues)
+8. [Pikaday issue board](https://github.com/Pikaday/Pikaday/issues)
+9. [Moment.js issue board](https://github.com/moment/moment/issues)
+10. [Moment.js documentation](https://momentjs.com/docs/)
+11. [Terser issue board](https://github.com/terser/terser/issues)
 
 
