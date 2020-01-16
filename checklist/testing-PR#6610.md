@@ -25,16 +25,9 @@
 
 - [ ] Validation check:
     - [ ] Has the number of licenses changed?
-    - [ ] Add licenses with various date formats (MM/DD/YYYY) (DD/MM/YYYY), (YYYY/MM/DD), dots, commas
-    - [ ] Adding multiple licenses, e.g. 100
-    - [ ] Remove licence
-    - [ ] Removal of multiple licenses, e.g. 100
-    - [ ] Back-up/restore license
-    - [ ] Invalid license added
-        - [ ] improper licence key
-        - [ ] expired licence key
-        - [ ] Incorrect email address format - space, strange characters
-        - [ ] Incorrect format of name, surname, organization name, @, strange characters, numbers, e.g. 13th month
+    - [ ] Has the number of licenses changed?
+    check key with incorrect date - when the license expires yesterday, today and tomorrow
+
   
 
 ### Releted issues
@@ -56,6 +49,7 @@
 16. [#2966 Cells function gets the property function in the col argument during validation ](https://github.com/handsontable/handsontable/issues/2966)
 17. [#5848 Numeric cell type fails to validate -.n ](https://github.com/handsontable/handsontable/issues/5848)
 18. [#6465 8.0.0 release](https://github.com/handsontable/handsontable/issues/6465)
+
 
 ### Documentation
 1. [Handsontable's numericFormat](https://handsontable.com/docs/7.3.0/Options.html#numericFormat)
