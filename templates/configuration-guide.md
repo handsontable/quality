@@ -2,7 +2,7 @@
 
 ## Table of contents
 -  [Content ](#content)
-- [Configuration guides - other instructions](#configuration-guides---other-instructions)
+- [Configuration guides - environments](#configuration-guides---environments)
     - [Handsontable version from PR for installation in the project ](#handsontable-version-from-pr-for-installation-in-the-project)
     - [Handsontable own build configuration from PR ](#handsontable-own-build-configuration-from-pr)
     - [Handsontable-React build configuration from PR ](#handsontable-react-build-configuration-from-pr)
