@@ -3,8 +3,8 @@
 ## Table of contents
 -  [Content ](#content)
 - [Configuration guides - environments](#configuration-guides---environments)
-    - [Handsontable version from PR for installation in the project ](#handsontable-version-from-pr-for-installation-in-the-project)
-    - [Handsontable own build configuration from PR ](#handsontable-own-build-configuration-from-pr)
+    - [Build for installation in the project](#build-for-installation-in-project)
+    - [Links from Gist](#links-from-gist)
     - [Handsontable-React build configuration from PR ](#handsontable-react-build-configuration-from-pr)
     - [Performance lab ](#performance-lab)
 - [Configuration guides - other instructions](#configuration-guides---other-instructions)
@@ -17,7 +17,7 @@ Instructions for configuring the test environment and other useful guidance.
 Instructions for configuring the test environment for Handsontable, Handsontable-wrappers and other projects.
 
 
-### Handsontable version from PR for installation in the project
+### Build for installation in the project
 How to install version of Handsontable from PR into testing projects
 
 1. On main Handsontable repo switch to the branch from which you want to build Handsontable version for test
@@ -33,7 +33,7 @@ How to install version of Handsontable from PR into testing projects
     - `npm i .../path-to-packed-build`
 
 
-### Handsontable own build configuration from PR 
+### Links from Gist
 How to make own `.css` and `.js` build file.
 
 1. On main Handsontable repo switch to the branch from which you want to build Handsontable version for test
