@@ -5,13 +5,9 @@
     - [Good practices ](#good-practices)
     - [Issues ](#issues)
     - [Performance lab ](#performance-lab)
-- [Templates](#templates)
+- [Helpful](#helpful)
     - [Configuration guides ](#configuration-guides) 
-    - [Handsontable release testing ](#configuration-guides) 
-    - [Release of wrapper testing](#configuration-guides) 
-    - [Internal pull request testing](#configuration-guides) 
-    - [External pull request testing](#configuration-guides) 
-    - [Updated browser testing ](#configuration-guides) 
+    - [Test environments](#test-environments)
     - [Helpful for testing](#configuration-guides)
   
 ## An all-docs construction site
@@ -35,19 +31,11 @@ Please be sure to follow the convention so the suggested change can be implement
 
 In order to communicate any need for an improvement please write an `issue` and use a corresponding `template`.
 
-## Templates
+## Helpful
 
 ### [Configuration guides](https://github.com/handsontable/quality/blob/master/templates/configuration-guide.md)
 
-### [Handsontable release testing](https://github.com/handsontable/quality/blob/master/templates/release-handsontable-testing.md)
-
-### [Release of wrapper testing](https://github.com/handsontable/quality/blob/master/templates/wrapper-handsontable-release.md)
-
-### [Internal pull request testing](https://github.com/handsontable/quality/blob/master/templates/internal-pull-request-testing.md)
-
-### [External pull request testing](https://github.com/handsontable/quality/blob/master/templates/external-pull-request-testing.md)
-
-### [Updated browser testing](https://github.com/handsontable/quality/blob/master/templates/updated-browser-testing.md)
+### [Test environments]()
 
 ### [Helpful for testing](https://github.com/handsontable/quality/blob/master/templates/helpful-for-testing.md)
 
