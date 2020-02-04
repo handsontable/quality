@@ -37,7 +37,7 @@ How to install version of Handsontable from PR into testing projects
 How to make own `.css` and `.js` build file.
 
 1. On main Handsontable repo switch to the branch from which you want to build Handsontable version for test
-   - `git checkout` `PR-for-tests-branch`
+   - `git checkout` `PR-for-tests-branch` or `git clone --single-branch --branch <branchname> <remote-repo-url>`
 2. Build your Handsontable:
     - `npm i`
     - `npm run build`
