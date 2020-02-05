@@ -9,15 +9,13 @@ class App extends React.Component {
     super(props);
     this.state = {
       hotSettings: {
-        data: Handsontable.helper.createSpreadsheetData(25, 26),
+        data: Handsontable.helper.createSpreadsheetData(10, 10),
         colHeaders: true,
         rowHeaders: true,
-        filters: true,
         fixedRowsTop: 2,
         fixedRowsBottom: 2,
         fixedColumnsLeft: 2,
         contextMenu: true,
-        dropdownMenu: true,
         licenseKey: 'non-commercial-and-evaluation'
       }
     };
@@ -26,20 +24,8 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <h2>Heading</h2>
-        <h3>Subheading</h3>
+        <span id ="test">test</span>
         <HotTable settings={this.state.hotSettings}>
-          <HotColumn title="A" />        
-          <HotColumn title="B" />
-          <HotColumn title="C" />         
-          <HotColumn title="D" />
-          <HotColumn title="E" />
-          <HotColumn title="F" />
-          <HotColumn title="G" />
-          <HotColumn title="H" />
-          <HotColumn title="I" />
-          <HotColumn title="J" />
-          <HotColumn title="K" />
         </HotTable>
       </>
     );
@@ -48,3 +34,4 @@ class App extends React.Component {
 
 console.log("Handsontable version:", Handsontable.version, " React-Handsontable version:", HotTable.version)
 export default App;
+ 
