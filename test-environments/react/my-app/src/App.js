@@ -29,12 +29,9 @@ class App extends React.Component {
         <h2>Heading</h2>
         <h3>Subheading</h3>
         <HotTable settings={this.state.hotSettings}>
-          <HotColumn title="A">
-          </HotColumn>
-          <HotColumn title="B">
-          </HotColumn>
-          <HotColumn title="C">
-          </HotColumn>
+          <HotColumn title="A" />        
+          <HotColumn title="B" />
+          <HotColumn title="C" />         
           <HotColumn title="D" />
           <HotColumn title="E" />
           <HotColumn title="F" />
