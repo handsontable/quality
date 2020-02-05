@@ -1,6 +1,5 @@
 import React from 'react';
 import Handsontable from 'handsontable';
-// import { RendererComponent, OtherRendererComponent } from "./rendererComponent";
 import { HotTable, HotColumn } from '@handsontable/react';
 import "handsontable/dist/handsontable.min.css";
 
@@ -10,15 +9,16 @@ class App extends React.Component {
     super(props);
     this.state = {
       hotSettings: {
-        data: Handsontable.helper.createSpreadsheetData(10, 11),
+        data: Handsontable.helper.createSpreadsheetData(25, 26),
         colHeaders: true,
         rowHeaders: true,
-        // width: 300,
-        // height: 300,
-        colWidths: 100,
         filters: true,
+        fixedRowsTop: 2,
+        fixedRowsBottom: 2,
         fixedColumnsLeft: 2,
-        // licenseKey: ,
+        contextMenu: true,
+        dropdownMenu: true,
+        licenseKey: 'non-commercial-and-evaluation'
       }
     };
   }
@@ -30,13 +30,10 @@ class App extends React.Component {
         <h3>Subheading</h3>
         <HotTable settings={this.state.hotSettings}>
           <HotColumn title="A">
-            {/* <RendererComponent hot-renderer /> */}
           </HotColumn>
           <HotColumn title="B">
-       
           </HotColumn>
           <HotColumn title="C">
-          
           </HotColumn>
           <HotColumn title="D" />
           <HotColumn title="E" />
@@ -52,5 +49,5 @@ class App extends React.Component {
   }
 }
 
-console.log("Handsontable version: ", Handsontable.version, " React-Handsontable version: ", HotTable.version)
+console.log("Handsontable version:", Handsontable.version, " React-Handsontable version:", HotTable.version)
 export default App;
