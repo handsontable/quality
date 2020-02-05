@@ -25,7 +25,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
+      <>
         <h2>Heading</h2>
         <h3>Subheading</h3>
         <HotTable settings={this.state.hotSettings}>
@@ -41,7 +41,7 @@ class App extends React.Component {
           <HotColumn title="J" />
           <HotColumn title="K" />
         </HotTable>
-      </React.Fragment>
+      </>
     );
   }
 }
