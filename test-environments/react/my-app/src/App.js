@@ -1,10 +1,10 @@
-import React from 'react';
+import * as React from 'react';
 import Handsontable from 'handsontable';
 import { HotTable } from '@handsontable/react';
 import 'handsontable/dist/handsontable.min.css';
-import '../node_modules/numbro/dist/languages.min.js';
 import 'handsontable/languages/all.js';
-
+import numbro from 'numbro';
+import languages from 'numbro/dist/languages.min.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -30,7 +30,7 @@ class App extends React.Component {
     this.state = {
       hotSettings: {
         data: dataObj,
-        colHeaders: ['num1', 'num2', 'txt3', 'txt4', 'date5', 'num6', 'pric ()7', 'price-usd8', 'price-pl9'],
+        colHeaders: ['num1', 'num2', 'txt3', 'txt4', 'date5', 'num 6', 'pric-eur7', 'price-usd8', 'price-pl9'],
         rowHeaders: true,
         fixedRowsTop: 2,
         fixedRowsBottom: 2,
@@ -44,28 +44,23 @@ class App extends React.Component {
           { type: 'text' },     //3
           { type: 'text' },     //4
           { type: 'date', dateFormat: 'M/D/YYYY' },     //5
-          { type: 'numeric', 
-          numericFormat: {   //6
-            average: true,
-            totalLength: 5
-          } },      
+          { type: 'numeric' },    //6
           { type: 'numeric',        //7
-          numericFormat: {
-            pattern: '0,0.00 $',
-            culture: 'de-DE'
-          } },
-          {
-            type: 'numeric',      //8
-            numericFormat: {
-              pattern: '$0,0.00',
-              culture: 'en-US'
-            }
-          },
-          {
-            type: 'numeric',      //9
             numericFormat: {
               pattern: '0,0.00 $',
-              culture: 'pl-PL'
+              languages: 'de-DE'
+            }
+          },
+          { type: 'numeric',      //8
+            numericFormat: {
+              pattern: '$0,0.00',
+              languages: 'en-US'
+            }
+          },
+          { type: 'numeric',      //9
+            numericFormat: {
+              pattern: '0,0.00 $',
+              languages: 'pl-PL'
             }
           }
         ],
@@ -74,7 +69,6 @@ class App extends React.Component {
         manualColumnResize: true,
         manualColumnMove: true,
         manualRowMove: true,
-        allowEmpty: true
       }
     };
   }
