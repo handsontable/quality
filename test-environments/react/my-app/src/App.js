@@ -2,9 +2,8 @@ import React from 'react';
 import Handsontable from 'handsontable';
 import { HotTable } from '@handsontable/react';
 import 'handsontable/dist/handsontable.min.css';
-import '../node_modules/numbro/languages/de-DE';
-import '../node_modules/numbro/languages/pl-PL';
-import 'handsontable/languages/all.js'
+import '../node_modules/numbro/dist/languages.min.js';
+import 'handsontable/languages/all.js';
 
 
 class App extends React.Component {
@@ -23,9 +22,9 @@ class App extends React.Component {
       [-1, -10, 'negatives numbers', null, '12/1/2016', '=A9^B9', '=A9*B9', '=A9/B9'],
       [0.2, 0.1, 'numbers', null, '12/1/2015', '=a10/a10', '=A10*B10', '=A10/B10'],
       [0.2, 0.1, 'strings_converted', null, '5/12/2015', '=A11+B11', '=A11*B11', '=A11/B11'],
-      [9999999999999999, 999999999999999, 'numbers, a1 should be 100..', null, '10/23/2015', '=A12+B12', '=A12*B12', '=A12/B12'],
+      [99999999, 99999, 'numbers, a1 should be 100..', null, '10/23/2015', '=A12+B12', '=A12*B12', '=A12/B12'],
       ['500000.5', '500000,5', 'comma as separator', null, '12/1/2014', '=A13+B13', '=A13*B13', '=A13/B13'],
-      [50000000000000000.0, 0.000000001, 'big and small number', null, '12/1/2016', '=A14+B14', '=A14*B14', '=A14/B14']
+      [50000000.0, 0.000000001, 'big and small number', null, '12/1/2016', '=A14+B14', '=A14*B14', '=A14/B14']
 
     ];
     this.state = {
