@@ -1,14 +1,9 @@
 ## Table of contents
--  [An all-docs construction site ](#an-all-docs-construction-site)
-    - [Purpose](#purpose)
-    - [Content ](#content)
-    - [Good practices ](#good-practices)
-    - [Issues ](#issues)
-    - [Performance lab ](#performance-lab)
-- [Helpful](#helpful)
+- [An all-docs construction site ](#an-all-docs-construction-site)
+- [Guides](#guides)
     - [Configuration guides ](#configuration-guides) 
     - [Test environments](#test-environments)
-    - [Helpful for testing](#configuration-guides)
+    - [Tips for testing](#tips-for-testing)
   
 ## An all-docs construction site
 
@@ -31,13 +26,13 @@ Please be sure to follow the convention so the suggested change can be implement
 
 In order to communicate any need for an improvement please write an `issue` and use a corresponding `template`.
 
-## Helpful
+## Guides
 
 ### [Configuration guides](https://github.com/handsontable/quality/blob/master/templates/configuration-guide.md)
 
 ### [Test environments]()
 
-### [Helpful for testing](https://github.com/handsontable/quality/blob/master/templates/helpful-for-testing.md)
+### [Tips for testing](https://github.com/handsontable/quality/blob/master/templates/helpful-for-testing.md)
 
 
 
