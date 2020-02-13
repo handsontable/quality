@@ -25,6 +25,9 @@ assignees: aninde
   - [ ] Opera
 - [ ] execute test for mobile devices
 - [ ] mobile - manual tests
+  - [ ] editor on mobile 
+  - [ ] repeat on  Android
+  - [ ] repeat on iOs
 
 
 ### Test cases
