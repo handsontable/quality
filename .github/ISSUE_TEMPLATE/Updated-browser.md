@@ -20,5 +20,13 @@ Automatic tests are repeatable at the beginning of the month in the updated brow
 - [ ] run e2e test 
 - [ ] run walkontble test
 - [ ] run mobile test
+- [ ] manual test of browser with table
+   - [ ] scrolling
+   - [ ] resizing window horizontally and vertically
+   - [ ] all mouse events
+   - [ ] keybord shortcuts
+- [ ] manual test of table
+   - [ ] CRUD
+   - [ ] main features
 - [ ] report bugs
 
