@@ -1,7 +1,7 @@
 ---
 name: release testing
-about: repeatable tests with every update of browser
-title: '[Updated browser]'
+about: repeatable tests with every code freeze
+title: '[Code freeze]'
 labels: 'Mobile, Project: Handsontable, e2e tests'
 assignees: aninde
 
