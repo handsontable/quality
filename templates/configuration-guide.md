@@ -76,7 +76,7 @@ First iTerm window
 After that performance-lab-dbviewer i performance-lab-mongodb should be builed, if not, repeat last command
 
 Second iTerm window (after above)
-cd repo
+- `cd repo`
 - `./bin/hot-perf run --help`
 - `./bin/hot-perf run --test-name=0.16.0-edit --hot-version=latest` // porównianie wersji 0.16 I 7.4.2
 - `./bin/hot-perf run --test-name=0.12.0-edit --hot-version=latest`
