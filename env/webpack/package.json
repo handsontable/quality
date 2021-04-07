@@ -1,0 +1,25 @@
+{
+  "name": "handsontable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "rm -rf node_modules/handsontable && ln -s ~/apps/handsontable node_modules/handsontable",
+    "build:webpack": "webpack",
+    "watch:webpack": "webpack serve --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handsontable": "^8.3.2"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.1.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
