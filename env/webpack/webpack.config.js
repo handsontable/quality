@@ -1,34 +1,16 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path')
 
 module.exports = {
-  entry: '/index.js',
-  output: {
-    path: path.resolve(__dirname, 'webpack_dist'),
-    filename: 'bundle.js'
+  entry: {
+    main: path.resolve(__dirname, './src/index.js'),
   },
-  module: {
-    rules: [{
-      test: /\.css$/i,
-      use: ['style-loader', 'css-loader'],
-    }]
-  },
-  devServer: {
-    contentBase: path.resolve(__dirname, 'webpack_dist'),
-  },
-  plugins: [new HtmlWebpackPlugin({
-    templateContent: `
-      <!DOCTYPE html>
-      <html lang="en">
-      <head>
-          <meta charset="UTF-8">
-          <title>Build with webpack</title>
-      </head>
-      <body>
-          <div id="example1"></div>
-          <script src="./index.js"></script>
-      </body>
-      </html>
-    `
-  })],
-};
+}
+
+module.exports = {
+    /* ... */
+  
+    output: {
+      path: path.resolve(__dirname, './dist'),
+      filename: '[name].bundle.js',
+    },
+  }
